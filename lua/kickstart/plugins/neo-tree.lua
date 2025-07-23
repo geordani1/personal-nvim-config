@@ -11,17 +11,18 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    window = {
+      position = 'left',
+      width = 30,
+    },
     filesystem = {
       window = {
         mappings = {
           ['\\'] = 'close_window',
-
-          -- nuevos atajos
-          ['h'] = 'close_node', -- cierra carpeta o retrocede
-          ['l'] = 'open', -- abre carpeta/archivo
+          ['h'] = 'close_node',
+          ['l'] = 'open',
         },
       },
     },
   },
 }
-
