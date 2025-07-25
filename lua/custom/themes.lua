@@ -6,4 +6,9 @@ return {
   { "navarasu/onedark.nvim" },
   { "rose-pine/neovim", name = "rose-pine" },
   { "folke/tokyonight.nvim" },
+  { "EdenEast/nightfox.nvim" },
+  { "shaunsingh/nord.nvim" },
+  { "sainnhe/sonokai" },
+  { "sainnhe/edge" },
+  { "Mofiqul/vscode.nvim" },
 }
